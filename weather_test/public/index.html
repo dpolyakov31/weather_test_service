@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>WEATHER TEST</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+
+</head>
+
+<body>
+    <div  id='divKyiv'>
+        <div id='weatherInfoKyiv'>
+            <span id='citySpanKyiv'>Kyiv</span>
+            <span id='kyivTempSpan'></span>
+            <span id='kyivHumiditySpan'></span>
+            <span id='kyivConditionSpan'></span>            
+        </div>
+        <canvas id="kyiv"></canvas> 
+       
+    </div>
+    <div class='hideDiv' id='divMaskKyiv'>
+            <br><br><span>Не дождались погоды</span>
+    </div>   
+    <div  id='divLondon'>
+        <div id='weatherInfoLondon'>
+            <span id='citySpanLondon'>London</span>
+            <span id='londonTempSpan'></span>
+            <span id='londonHumiditySpan'></span>
+            <span id='londonConditionSpan'></span>
+        </div>
+        <canvas id="london"></canvas> 
+               
+    </div>
+    <div class='hideDiv' id='divMaskLondon'>
+            <br><br><span>Дождь!</span>
+    </div>
+    <script type="text/javascript" src="script.js?n=1" charset="utf-8"></script>
+</body>
+
+</html>

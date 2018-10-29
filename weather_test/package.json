@@ -1,0 +1,22 @@
+{
+  "name": "weather_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "d.polyakov31@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "request": "^2.88.0",
+    "ws": "^6.1.0"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "8.11.4"
+  }
+}

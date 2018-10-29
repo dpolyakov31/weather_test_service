@@ -1,0 +1,6 @@
+
+ {
+    "Kyiv" : "https://api.openweathermap.org/data/2.5/weather?q=Misto%20Kyyiv&units=metric&appid=903777ec9fe21791a9a8778ee1ff1283",
+    "London" : "https://api.openweathermap.org/data/2.5/weather?q=London&units=metric&appid=903777ec9fe21791a9a8778ee1ff1283"
+}
+ 
